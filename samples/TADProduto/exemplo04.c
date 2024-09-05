@@ -42,6 +42,7 @@ int main()
    altera_preco(&preco[0],-110);
    altera_preco(&preco[2],10);
 
+    preco[0] = preco[0]*-110;
    printf("\nReduzindo o preco em 5%% do produto 2");
    if (altera_preco(&preco[1],-5)==-1) 
      printf("\n\nErro: preco nao alterado. Porcentagem invalida\n");

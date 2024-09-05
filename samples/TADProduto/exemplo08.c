@@ -4,6 +4,7 @@
 
 int main()
 {
+
   
   char nome[100];
   float preco_ant, preco_at;
@@ -12,15 +13,16 @@ int main()
   scanf("%s", nome);
   scanf("%f", &preco_ant);
   scanf("%d", &qtd);
-  
+
  
   produto *p;
 
   p = cria_produto(nome,preco_ant,qtd);
-
+  p->
   altera_preco(p, 10); 
 
   get_prod_info(p,nome, &preco_at, &qtd);
+  
 
   imprime_produto(p);
   printf("\n\npreco antes: %f, preco depois: %f", preco_ant, preco_at);

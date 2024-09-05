@@ -4,7 +4,8 @@
 int main()
 {
     produto p[4];
-    
+    produto p;
+    p.
     for (int i = 0; i < 4; i++)
     {
         printf("\nInforme o nome, o preco e a qtd. em estoque do produto %d:\n",i+1);
@@ -17,6 +18,7 @@ int main()
    printf("\nAumentando o preco em 10%% do produto 1 e 3");
    altera_preco(&p[0],10);
    altera_preco(&p[2],10);
+   p[2].preco =  p[2].preco*2;
    
 
    printf("\nReduzindo o preco em 5%% do produto 2");
