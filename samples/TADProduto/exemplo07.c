@@ -4,8 +4,8 @@
 int main()
 {
     produto p[4];
-    produto p;
-    p.
+    produto *p;
+  
     for (int i = 0; i < 4; i++)
     {
         printf("\nInforme o nome, o preco e a qtd. em estoque do produto %d:\n",i+1);
